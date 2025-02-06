@@ -19,15 +19,15 @@ const projects = [
       "Portfólio criado para fins de estudo de Frammer Motion, Next.JS e Tailwind CSS",
     image: "/images/portfoliobea.JPG",
     technologies: ["Next.JS", "TypeScript", "Framer Motion", "Tailwind.CSS"],
-    repo: "https://github.com/example2",
-    demo: "https://espacodelas.netlify.app/",
+    repo: "https://github.com/beamoraess/portfoliobeatrizmoraes/",
+    demo: "https://beatrizmoraes.netlify.app/",
   },
   {
     title: "ASOEC Login",
     description:
-      "Página de login que desenvolvi na empresa I9 no inicio da refatoração do sistema legado em PHP com api mockada para demonstração. Usuario: 102030 Senha: 123456",
+      "Página de login que desenvolvi na empresa I9 no inicio da refatoração do sistema legado em PHP com Mock API para demonstração. Usuario: 102030 Senha: 123456",
     image: "/images/asoecprototipo.JPG",
-    technologies: ["Vite.JS", "Redux", "React-Router-Dom", "Axios" ],
+    technologies: ["Vite.JS", "Redux", "React-Router-Dom", "Axios"],
     repo: "https://github.com/beamoraess/frontend-sistema-integrado-cp",
     demo: "https://asoec-prototipo.netlify.app/",
   },
@@ -36,7 +36,7 @@ const projects = [
     description:
       "Este é o repositório do projeto Spider-Verse, desenvolvido durante uma live no Youtube em parceria com a DIO. O projeto consiste em uma aplicação interativa inspirada no universo do Homem-Aranha, usando as principais stacks front-end. ",
     image: "/images/spiderman-project.JPG",
-    technologies: ["Next.js", "TypeScript", "Framer Motion" ],
+    technologies: ["Next.js", "TypeScript", "Framer Motion"],
     repo: "https://github.com/beamoraess/aranhaversobea.github.io",
     demo: "https://aranhaversobea.github.io",
   },
@@ -47,7 +47,8 @@ export default function Projects() {
     <section id="projects" className="py-16 text-white">
       <div className="max-w-5xl mx-auto px-6 md:px-12">
         <h2 className="text-xl md:text-2xl font-bold text-textSecondary flex items-center">
-          <span className="font-mono mr-2 text-textSecondary">03.</span> Projetos profissionais e pessoais que já desenvolvi
+          <span className="font-mono mr-2 text-textSecondary">03.</span>{" "}
+          Projetos profissionais e pessoais que já desenvolvi
           <span className="ml-4 flex-1 border-t border-borderColor"></span>
         </h2>
         <div className="mt-8 space-y-12">
@@ -62,7 +63,7 @@ export default function Projects() {
                   width={600}
                   height={350}
                   alt={project.title}
-                  className="rounded-md transition-transform group-hover:scale-105"
+                  className="rounded-md transition-transform group-hover:scale-105 object-cover h-[260px] w-full"
                 />
               </div>
               <div className="w-full md:w-1/2 text-left">
