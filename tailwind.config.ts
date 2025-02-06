@@ -10,19 +10,19 @@ export default {
     extend: {
       fontFamily: {
         sans: ["Inter", "sans-serif"],
-        mono: ["Fira Code", "monospace"]
+        mono: ["Fira Code", "monospace"],
       },
       colors: {
-        bgGradientStart: "#0B052A", // Azul Profundo (um pouco mais claro)
-        bgGradientMidStart: "#8D6C7A", // Bege Rosado Suave para transição
-        bgGradientMiddle: "#B99A9A", // Bege Rosado (menos saturado)
-        bgGradientMidEnd: "#8A6474", // Transição antes do vinho suave
-        bgGradientEnd: "#6D4B5E", // Vinho Suave (tom mais fechado, mas menos forte)
-        textPrimary: "#F0EAD6", // Bege Claro para melhor leitura
-        textSecondary: "#E4A6D3", // Lilás mais vivo para títulos
+        bgGradientStart: "#0B052A", 
+        bgGradientMidStart: "#6F4D5E", 
+        bgGradientMiddle: "#5B3D4C", 
+        bgGradientMidEnd: "#4A2E3E", 
+        bgGradientEnd: "#2F1B2C", 
+        textPrimary: "#F0EAD6",
+        textSecondary: "#E4A6D3", 
         accent: "#E4A6D3",
         borderColor: "#C27BA0",
-        bgSecondary: "#3D2F40", // Roxo fechado para detalhes sutis
+        bgSecondary: "#3D2F40",
       },
     },
   },
